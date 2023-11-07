@@ -120,4 +120,16 @@ span img:hover, span img:active {
   background-color: #f5aa9f;
 }
 
+/* line 109, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+.play img {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 116, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+.cacti {
+  position: relative;
+}
+
 /*# sourceMappingURL=styles.css.map */
