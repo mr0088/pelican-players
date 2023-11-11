@@ -1,4 +1,4 @@
-body {
+#truewest {
   width: 100%;
   margin: 0 auto;
   background: linear-gradient(#111215, #1D1E23, #342A3C, #4F3252, #81366D, #C03F59, #ED4D4D, #FFB05C, #FFE684);
@@ -6,10 +6,21 @@ body {
 }
 
 nav {
-    a {
+    .home {
       color: #000;
       text-decoration: none;
       font-size: 1.2em;
+      &:hover, &:active{
+        transition: 0.3s;
+        color: #ffcc00;
+        text-decoration: none;
+      }
+    }
+
+    .play {
+      color: #989898;
+      text-decoration: none;
+      font-size: 1.5em;
       &:hover, &:active{
         transition: 0.3s;
         color: #ffcc00;
@@ -66,12 +77,6 @@ nav {
 
 
 span {
-  img {
-    &:hover, &:active, {
-      color: #ffcc00;
-      transition: 0.3s;
-    }
-  }
 }
 
 /* Position the close button (top right corner) */
@@ -92,6 +97,7 @@ span {
   }
 }
 
+/*PELICAN PLAYERS HOMEPAGE*/
 
 .intro {
   background-color: #ffcc00;
@@ -105,15 +111,51 @@ span {
   background-color: #f5aa9f;
 }
 
+
+
+
+/*START OF TRUE WEST PAGE*/
+
 .play{
   img{
     width:100%;
     margin: 0 auto;
     text-align: center;
   }
+
+  h1{
+    font-family: "acumin-pro-extra-condensed", sans-serif;
+    text-align: center;
+    color: #989898;
+    padding-top:50px;
+  }
+}
+
+.play-tickets{
+  p{
+    text-align: center;
+    margin-bottom: 75px;
+  }
+
+  a{
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+    font-family: "acumin-pro-extra-condensed", sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    text-align: center;
+    padding: 25px 60px;
+    left: 5%;
+    &:active, &:hover {
+      background-color: #ffcc00;
+      color: #000;
+      transition: 0.4s;
+    }
+  }
 }
 
 .cacti{
   position: relative;
-  
+
 }

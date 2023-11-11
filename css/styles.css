@@ -1,5 +1,5 @@
 /* line 1, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
-body {
+#truewest {
   width: 100%;
   margin: 0 auto;
   background: linear-gradient(#111215, #1D1E23, #342A3C, #4F3252, #81366D, #C03F59, #ED4D4D, #FFB05C, #FFE684);
@@ -7,20 +7,34 @@ body {
 }
 
 /* line 9, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
-nav a {
+nav .home {
   color: #000;
   text-decoration: none;
   font-size: 1.2em;
 }
 
 /* line 13, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
-nav a:hover, nav a:active {
+nav .home:hover, nav .home:active {
   transition: 0.3s;
   color: #ffcc00;
   text-decoration: none;
 }
 
-/* line 22, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 20, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+nav .play {
+  color: #989898;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+/* line 24, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+nav .play:hover, nav .play:active {
+  transition: 0.3s;
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+/* line 33, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .overlay {
   height: 0%;
   width: 100%;
@@ -37,7 +51,7 @@ nav a:hover, nav a:active {
 }
 
 /* Position the content inside the overlay */
-/* line 35, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 46, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .overlay-content {
   position: relative;
   top: 20%;
@@ -49,7 +63,7 @@ nav a:hover, nav a:active {
   /* 30px top margin to avoid conflict with the close button on smaller screens */
 }
 
-/* line 43, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 54, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .overlay-content .navbar-nav .nav-item {
   text-align: center;
   /*targets only links inside menu*/
@@ -58,7 +72,7 @@ nav a:hover, nav a:active {
   font-weight: 500;
 }
 
-/* line 53, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 64, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .overlay a {
   padding: 8px;
   text-decoration: none;
@@ -70,20 +84,14 @@ nav a:hover, nav a:active {
   transition: 0.3s;
 }
 
-/* line 63, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 74, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .overlay a:hover, .overlay a:focus {
   color: #ffcc00;
   /*color of links inside menu when active / hover*/
 }
 
-/* line 70, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
-span img:hover, span img:active {
-  color: #ffcc00;
-  transition: 0.3s;
-}
-
 /* Position the close button (top right corner) */
-/* line 78, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 83, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .overlay .closebtn {
   position: absolute;
   top: -40px;
@@ -93,11 +101,11 @@ span img:hover, span img:active {
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
 @media screen and (max-height: 450px) {
-  /* line 87, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 92, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .overlay a {
     font-size: 20px;
   }
-  /* line 88, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 93, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .overlay .closebtn {
     font-size: 40px;
     top: 15px;
@@ -105,29 +113,65 @@ span img:hover, span img:active {
   }
 }
 
-/* line 96, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/*PELICAN PLAYERS HOMEPAGE*/
+/* line 102, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .intro {
   background-color: #ffcc00;
 }
 
-/* line 100, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 106, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .true-west {
   background-color: #c8e087;
 }
 
-/* line 104, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 110, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .contact {
   background-color: #f5aa9f;
 }
 
-/* line 109, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/*START OF TRUE WEST PAGE*/
+/* line 120, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .play img {
   width: 100%;
   margin: 0 auto;
   text-align: center;
 }
 
-/* line 116, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 126, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+.play h1 {
+  font-family: "acumin-pro-extra-condensed", sans-serif;
+  text-align: center;
+  color: #989898;
+  padding-top: 50px;
+}
+
+/* line 135, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+.play-tickets p {
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+/* line 140, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+.play-tickets a {
+  background-color: #000;
+  text-decoration: none;
+  color: #fff;
+  font-family: "acumin-pro-extra-condensed", sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  text-align: center;
+  padding: 25px 60px;
+  left: 5%;
+}
+
+/* line 150, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+.play-tickets a:active, .play-tickets a:hover {
+  background-color: #ffcc00;
+  color: #000;
+  transition: 0.4s;
+}
+
+/* line 158, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .cacti {
   position: relative;
 }
