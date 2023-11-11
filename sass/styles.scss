@@ -12,21 +12,31 @@ nav {
       font-size: 1.2em;
       &:hover, &:active{
         transition: 0.3s;
-        color: #ffcc00;
+        color: #ff7800;
         text-decoration: none;
       }
     }
 
     .play {
+      @media(max-width:576px){
+        font-size: 1em;
+      }
+      @media(min-width:576px){
+        font-size: 1.2em;
+      }
       color: #989898;
       text-decoration: none;
       font-size: 1.5em;
       &:hover, &:active{
         transition: 0.3s;
-        color: #ffcc00;
+        color: #ff7800;
         text-decoration: none;
       }
     }
+}
+
+.navbar {
+  padding: 1.5em;
 }
 
 
@@ -45,10 +55,10 @@ nav {
 /* Position the content inside the overlay */
 .overlay-content {
   position: relative;
-  top: 20%; /* 25% from the top */
+  top: 33%; /* 25% from the top */
   width: 100%; /* 100% width */
   right: 0%;
-  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  margin-top: 0px; /* 30px top margin to avoid conflict with the close button on smaller screens */
 
   .navbar-nav{
     .nav-item{
@@ -65,18 +75,39 @@ nav {
   padding: 8px;
   text-decoration: none; /*decoration of X button AND links inside menu*/
   font-size: 3em;
-  color: #000; /*changes color of inside menu text*/
+  color: #989898; /*changes color of inside menu text*/
   display: block;
   transition: 0.3s;
 }
 
 
 .overlay a:hover, .overlay a:focus {
-  color: #ffcc00; /*color of links inside menu when active / hover*/
+  color: #ff7800; /*color of links inside menu when active / hover*/
 }
 
 
-span {
+.span {
+    @media(min-width:600px){
+      padding-left: 45px;
+    }
+    @media(min-width:768px){
+      padding-left: 75px;
+    }
+    @media(min-width:900px){
+      padding-left: 100px;
+    }
+    @media(min-width:992px){
+      padding-left: 120px;
+    }
+    @media(min-width:1130px){
+      padding-left: 145px;
+    }
+    @media(min-width:1230px){
+      padding-left: 160px;
+    }
+    @media(min-width:1280px){
+      padding-left: 170px;
+    }
 }
 
 /* Position the close button (top right corner) */
@@ -121,13 +152,77 @@ span {
     width:100%;
     margin: 0 auto;
     text-align: center;
+    @media(min-width:576px){
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+    @media(min-width:630px){
+      padding-left: 95px;
+      padding-right: 95px;
+    }
+    @media(min-width:700px){
+      padding-left: 135px;
+      padding-right: 135px;
+    }
+    @media(min-width:730px){
+      padding-left: 200px;
+      padding-right: 200px;
+    }
+    @media(min-width:915px){
+      padding-left: 230px;
+      padding-right: 230px;
+    }
+    @media(min-width:992px){
+      padding-left: 280px;
+      padding-right: 280px;
+    }
+    @media(min-width:1050px){
+      padding-left: 325px;
+      padding-right: 325px;
+    }
+    @media(min-width:1185px){
+      padding-left: 370px;
+      padding-right: 370px;
+    }
+    @media(min-width:1250px){
+      padding-left: 385px;
+      padding-right: 385px;
+    }
+    @media(min-width:1300px){
+      padding-left: 450px;
+      padding-right: 450px;
+    }
   }
 
   h1{
     font-family: "acumin-pro-extra-condensed", sans-serif;
     text-align: center;
     color: #989898;
-    padding-top:50px;
+    @media(max-width:576px){
+      margin-top:30px;
+      font-size: 1.7em;
+      margin-bottom: 10px;
+    }
+    @media(min-width:576px){
+      font-size: 1.8em;
+      padding-top:10px;
+    }
+    @media(min-width:600px){
+      padding-top:50px;
+    }
+    @media(min-width:768px){
+      padding-top:40px;
+    }
+    @media(min-width:830px){
+      padding-top:35px;
+    }
+    @media(min-width:900px){
+      padding-top:40px;
+    }
+    @media(min-width:992px){
+      padding-top:55px;
+    }
+
   }
 }
 
@@ -135,6 +230,7 @@ span {
   p{
     text-align: center;
     margin-bottom: 75px;
+    color: #000;
   }
 
   a{
@@ -145,17 +241,100 @@ span {
     font-size: 2em;
     font-weight: 500;
     text-align: center;
-    padding: 25px 60px;
+    padding: 25px 70px;
     left: 5%;
     &:active, &:hover {
       background-color: #ffcc00;
       color: #000;
       transition: 0.4s;
     }
+
+    @media(min-width:412px){
+      left: 9%;
+    }
+    @media(min-width:414px){
+      left: 11%;
+    }
+    @media(min-width:550px){
+      left: 18%;
+    }
+    @media(min-width:576px){
+      left: 20%;
+    }
+    @media(min-width:700px){
+      left: 25%;
+    }
+    @media(min-width:830px){
+      left: 27%;
+    }
+    @media(min-width:1250px){
+      left: 32%;
+    }
   }
+}
+
+.showtimes{
+  @media(max-width:576px){
+    margin-top:85px;
+  }
+  @media(min-width:576px){
+    margin-top:95px;
+  }
+
+  h2{
+    font-family: "becker-gothics-stencil", sans-serif;
+    text-align: center;
+    @media(min-width:576px){
+      font-size: 2.75em;
+    }
+  }
+
+  ul{
+    list-style: none;
+    text-align: center;
+    padding-left:0;
+    font-family: "acumin-pro-extra-condensed", sans-serif;
+    font-size: 1.75em;
+  }
+}
+
+.castcrew{
+  @media(max-width:576px){
+    margin-top: 65px;
+  }
+  @media(min-width:576px){
+    margin-top: 65px;
+  }
+  h3{
+    font-family: "becker-gothics-stencil", sans-serif;
+    text-align: center;
+    @media(min-width:576px){
+      font-size: 2.75em;
+    }
+  }
+
+  ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    font-family: "acumin-pro-extra-condensed", sans-serif;
+    @media(max-width:576px){
+      font-size: 1.5em;
+    }
+    @media(min-width:576px){
+      font-size: 1.5em;
+    }
+
+  }
+
 }
 
 .cacti{
   position: relative;
-
+  @media(min-width:576px){
+    margin-top:50px;
+  }
+  @media(min-width:768px){
+    margin-top: 0;
+  }
 }

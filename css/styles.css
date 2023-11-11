@@ -16,7 +16,7 @@ nav .home {
 /* line 13, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 nav .home:hover, nav .home:active {
   transition: 0.3s;
-  color: #ffcc00;
+  color: #ff7800;
   text-decoration: none;
 }
 
@@ -27,14 +27,33 @@ nav .play {
   font-size: 1.5em;
 }
 
-/* line 24, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+@media (max-width: 576px) {
+  /* line 20, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  nav .play {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 576px) {
+  /* line 20, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  nav .play {
+    font-size: 1.2em;
+  }
+}
+
+/* line 30, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 nav .play:hover, nav .play:active {
   transition: 0.3s;
-  color: #ffcc00;
+  color: #ff7800;
   text-decoration: none;
 }
 
-/* line 33, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 38, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+.navbar {
+  padding: 1.5em;
+}
+
+/* line 43, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .overlay {
   height: 0%;
   width: 100%;
@@ -51,19 +70,19 @@ nav .play:hover, nav .play:active {
 }
 
 /* Position the content inside the overlay */
-/* line 46, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 56, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .overlay-content {
   position: relative;
-  top: 20%;
+  top: 33%;
   /* 25% from the top */
   width: 100%;
   /* 100% width */
   right: 0%;
-  margin-top: 30px;
+  margin-top: 0px;
   /* 30px top margin to avoid conflict with the close button on smaller screens */
 }
 
-/* line 54, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 64, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .overlay-content .navbar-nav .nav-item {
   text-align: center;
   /*targets only links inside menu*/
@@ -72,26 +91,75 @@ nav .play:hover, nav .play:active {
   font-weight: 500;
 }
 
-/* line 64, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 74, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .overlay a {
   padding: 8px;
   text-decoration: none;
   /*decoration of X button AND links inside menu*/
   font-size: 3em;
-  color: #000;
+  color: #989898;
   /*changes color of inside menu text*/
   display: block;
   transition: 0.3s;
 }
 
-/* line 74, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 84, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .overlay a:hover, .overlay a:focus {
-  color: #ffcc00;
+  color: #ff7800;
   /*color of links inside menu when active / hover*/
 }
 
+@media (min-width: 600px) {
+  /* line 89, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .span {
+    padding-left: 45px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 89, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .span {
+    padding-left: 75px;
+  }
+}
+
+@media (min-width: 900px) {
+  /* line 89, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .span {
+    padding-left: 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 89, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .span {
+    padding-left: 120px;
+  }
+}
+
+@media (min-width: 1130px) {
+  /* line 89, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .span {
+    padding-left: 145px;
+  }
+}
+
+@media (min-width: 1230px) {
+  /* line 89, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .span {
+    padding-left: 160px;
+  }
+}
+
+@media (min-width: 1280px) {
+  /* line 89, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .span {
+    padding-left: 170px;
+  }
+}
+
 /* Position the close button (top right corner) */
-/* line 83, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 114, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .overlay .closebtn {
   position: absolute;
   top: -40px;
@@ -101,11 +169,11 @@ nav .play:hover, nav .play:active {
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
 @media screen and (max-height: 450px) {
-  /* line 92, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 123, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .overlay a {
     font-size: 20px;
   }
-  /* line 93, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 124, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .overlay .closebtn {
     font-size: 40px;
     top: 15px;
@@ -114,44 +182,176 @@ nav .play:hover, nav .play:active {
 }
 
 /*PELICAN PLAYERS HOMEPAGE*/
-/* line 102, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 133, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .intro {
   background-color: #ffcc00;
 }
 
-/* line 106, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 137, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .true-west {
   background-color: #c8e087;
 }
 
-/* line 110, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 141, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .contact {
   background-color: #f5aa9f;
 }
 
 /*START OF TRUE WEST PAGE*/
-/* line 120, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 151, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .play img {
   width: 100%;
   margin: 0 auto;
   text-align: center;
 }
 
-/* line 126, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+@media (min-width: 576px) {
+  /* line 151, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .play img {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media (min-width: 630px) {
+  /* line 151, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .play img {
+    padding-left: 95px;
+    padding-right: 95px;
+  }
+}
+
+@media (min-width: 700px) {
+  /* line 151, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .play img {
+    padding-left: 135px;
+    padding-right: 135px;
+  }
+}
+
+@media (min-width: 730px) {
+  /* line 151, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .play img {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+@media (min-width: 915px) {
+  /* line 151, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .play img {
+    padding-left: 230px;
+    padding-right: 230px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 151, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .play img {
+    padding-left: 280px;
+    padding-right: 280px;
+  }
+}
+
+@media (min-width: 1050px) {
+  /* line 151, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .play img {
+    padding-left: 325px;
+    padding-right: 325px;
+  }
+}
+
+@media (min-width: 1185px) {
+  /* line 151, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .play img {
+    padding-left: 370px;
+    padding-right: 370px;
+  }
+}
+
+@media (min-width: 1250px) {
+  /* line 151, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .play img {
+    padding-left: 385px;
+    padding-right: 385px;
+  }
+}
+
+@media (min-width: 1300px) {
+  /* line 151, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .play img {
+    padding-left: 450px;
+    padding-right: 450px;
+  }
+}
+
+/* line 197, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .play h1 {
   font-family: "acumin-pro-extra-condensed", sans-serif;
   text-align: center;
   color: #989898;
-  padding-top: 50px;
 }
 
-/* line 135, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+@media (max-width: 576px) {
+  /* line 197, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .play h1 {
+    margin-top: 30px;
+    font-size: 1.7em;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 576px) {
+  /* line 197, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .play h1 {
+    font-size: 1.8em;
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 600px) {
+  /* line 197, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .play h1 {
+    padding-top: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 197, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .play h1 {
+    padding-top: 40px;
+  }
+}
+
+@media (min-width: 830px) {
+  /* line 197, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .play h1 {
+    padding-top: 35px;
+  }
+}
+
+@media (min-width: 900px) {
+  /* line 197, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .play h1 {
+    padding-top: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 197, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .play h1 {
+    padding-top: 55px;
+  }
+}
+
+/* line 230, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .play-tickets p {
   text-align: center;
   margin-bottom: 75px;
+  color: #000;
 }
 
-/* line 140, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 236, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .play-tickets a {
   background-color: #000;
   text-decoration: none;
@@ -160,20 +360,168 @@ nav .play:hover, nav .play:active {
   font-size: 2em;
   font-weight: 500;
   text-align: center;
-  padding: 25px 60px;
+  padding: 25px 70px;
   left: 5%;
 }
 
-/* line 150, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 246, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .play-tickets a:active, .play-tickets a:hover {
   background-color: #ffcc00;
   color: #000;
   transition: 0.4s;
 }
 
-/* line 158, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+@media (min-width: 412px) {
+  /* line 236, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .play-tickets a {
+    left: 9%;
+  }
+}
+
+@media (min-width: 414px) {
+  /* line 236, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .play-tickets a {
+    left: 11%;
+  }
+}
+
+@media (min-width: 550px) {
+  /* line 236, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .play-tickets a {
+    left: 18%;
+  }
+}
+
+@media (min-width: 576px) {
+  /* line 236, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .play-tickets a {
+    left: 20%;
+  }
+}
+
+@media (min-width: 700px) {
+  /* line 236, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .play-tickets a {
+    left: 25%;
+  }
+}
+
+@media (min-width: 830px) {
+  /* line 236, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .play-tickets a {
+    left: 27%;
+  }
+}
+
+@media (min-width: 1250px) {
+  /* line 236, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .play-tickets a {
+    left: 32%;
+  }
+}
+
+@media (max-width: 576px) {
+  /* line 276, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .showtimes {
+    margin-top: 85px;
+  }
+}
+
+@media (min-width: 576px) {
+  /* line 276, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .showtimes {
+    margin-top: 95px;
+  }
+}
+
+/* line 284, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+.showtimes h2 {
+  font-family: "becker-gothics-stencil", sans-serif;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  /* line 284, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .showtimes h2 {
+    font-size: 2.75em;
+  }
+}
+
+/* line 292, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+.showtimes ul {
+  list-style: none;
+  text-align: center;
+  padding-left: 0;
+  font-family: "acumin-pro-extra-condensed", sans-serif;
+  font-size: 1.75em;
+}
+
+@media (max-width: 576px) {
+  /* line 301, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .castcrew {
+    margin-top: 65px;
+  }
+}
+
+@media (min-width: 576px) {
+  /* line 301, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .castcrew {
+    margin-top: 65px;
+  }
+}
+
+/* line 308, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+.castcrew h3 {
+  font-family: "becker-gothics-stencil", sans-serif;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  /* line 308, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .castcrew h3 {
+    font-size: 2.75em;
+  }
+}
+
+/* line 316, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+.castcrew ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  font-family: "acumin-pro-extra-condensed", sans-serif;
+}
+
+@media (max-width: 576px) {
+  /* line 316, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .castcrew ul {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 576px) {
+  /* line 316, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .castcrew ul {
+    font-size: 1.5em;
+  }
+}
+
+/* line 332, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .cacti {
   position: relative;
+}
+
+@media (min-width: 576px) {
+  /* line 332, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .cacti {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 332, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  .cacti {
+    margin-top: 0;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
