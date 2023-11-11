@@ -182,23 +182,38 @@ nav .play:hover, nav .play:active {
 }
 
 /*PELICAN PLAYERS HOMEPAGE*/
-/* line 133, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
-.intro {
-  background-color: #ffcc00;
-}
-
-/* line 137, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
-.true-west {
-  background-color: #c8e087;
+/* line 134, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+.intro h1 {
+  font-family: "acumin-pro-extra-condensed", sans-serif;
+  text-align: center;
+  font-size: 4.75em;
+  padding-top: 100px;
 }
 
 /* line 141, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
-.contact {
-  background-color: #f5aa9f;
+.intro p {
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+/* line 146, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+.intro a {
+  text-decoration: none;
+  color: #000;
+  font-family: "acumin-pro-extra-condensed", sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* line 153, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+.intro a:active, .intro a:hover {
+  color: #ffcc00;
+  transition: 0.4s;
 }
 
 /*START OF TRUE WEST PAGE*/
-/* line 151, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 166, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .play img {
   width: 100%;
   margin: 0 auto;
@@ -206,7 +221,7 @@ nav .play:hover, nav .play:active {
 }
 
 @media (min-width: 576px) {
-  /* line 151, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 166, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .play img {
     padding-left: 60px;
     padding-right: 60px;
@@ -214,7 +229,7 @@ nav .play:hover, nav .play:active {
 }
 
 @media (min-width: 630px) {
-  /* line 151, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 166, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .play img {
     padding-left: 95px;
     padding-right: 95px;
@@ -222,7 +237,7 @@ nav .play:hover, nav .play:active {
 }
 
 @media (min-width: 700px) {
-  /* line 151, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 166, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .play img {
     padding-left: 135px;
     padding-right: 135px;
@@ -230,7 +245,7 @@ nav .play:hover, nav .play:active {
 }
 
 @media (min-width: 730px) {
-  /* line 151, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 166, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .play img {
     padding-left: 200px;
     padding-right: 200px;
@@ -238,7 +253,7 @@ nav .play:hover, nav .play:active {
 }
 
 @media (min-width: 915px) {
-  /* line 151, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 166, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .play img {
     padding-left: 230px;
     padding-right: 230px;
@@ -246,7 +261,7 @@ nav .play:hover, nav .play:active {
 }
 
 @media (min-width: 992px) {
-  /* line 151, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 166, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .play img {
     padding-left: 280px;
     padding-right: 280px;
@@ -254,7 +269,7 @@ nav .play:hover, nav .play:active {
 }
 
 @media (min-width: 1050px) {
-  /* line 151, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 166, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .play img {
     padding-left: 325px;
     padding-right: 325px;
@@ -262,7 +277,7 @@ nav .play:hover, nav .play:active {
 }
 
 @media (min-width: 1185px) {
-  /* line 151, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 166, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .play img {
     padding-left: 370px;
     padding-right: 370px;
@@ -270,7 +285,7 @@ nav .play:hover, nav .play:active {
 }
 
 @media (min-width: 1250px) {
-  /* line 151, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 166, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .play img {
     padding-left: 385px;
     padding-right: 385px;
@@ -278,14 +293,14 @@ nav .play:hover, nav .play:active {
 }
 
 @media (min-width: 1300px) {
-  /* line 151, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 166, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .play img {
     padding-left: 450px;
     padding-right: 450px;
   }
 }
 
-/* line 197, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 212, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .play h1 {
   font-family: "acumin-pro-extra-condensed", sans-serif;
   text-align: center;
@@ -293,7 +308,7 @@ nav .play:hover, nav .play:active {
 }
 
 @media (max-width: 576px) {
-  /* line 197, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 212, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .play h1 {
     margin-top: 30px;
     font-size: 1.7em;
@@ -302,7 +317,7 @@ nav .play:hover, nav .play:active {
 }
 
 @media (min-width: 576px) {
-  /* line 197, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 212, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .play h1 {
     font-size: 1.8em;
     padding-top: 10px;
@@ -310,48 +325,48 @@ nav .play:hover, nav .play:active {
 }
 
 @media (min-width: 600px) {
-  /* line 197, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 212, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .play h1 {
     padding-top: 50px;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 197, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 212, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .play h1 {
     padding-top: 40px;
   }
 }
 
 @media (min-width: 830px) {
-  /* line 197, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 212, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .play h1 {
     padding-top: 35px;
   }
 }
 
 @media (min-width: 900px) {
-  /* line 197, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 212, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .play h1 {
     padding-top: 40px;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 197, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 212, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .play h1 {
     padding-top: 55px;
   }
 }
 
-/* line 230, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 245, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .play-tickets p {
   text-align: center;
   margin-bottom: 75px;
   color: #000;
 }
 
-/* line 236, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 251, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .play-tickets a {
   background-color: #000;
   text-decoration: none;
@@ -364,7 +379,7 @@ nav .play:hover, nav .play:active {
   left: 5%;
 }
 
-/* line 246, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 261, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .play-tickets a:active, .play-tickets a:hover {
   background-color: #ffcc00;
   color: #000;
@@ -372,82 +387,82 @@ nav .play:hover, nav .play:active {
 }
 
 @media (min-width: 412px) {
-  /* line 236, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 251, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .play-tickets a {
     left: 9%;
   }
 }
 
 @media (min-width: 414px) {
-  /* line 236, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 251, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .play-tickets a {
     left: 11%;
   }
 }
 
 @media (min-width: 550px) {
-  /* line 236, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 251, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .play-tickets a {
     left: 18%;
   }
 }
 
 @media (min-width: 576px) {
-  /* line 236, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 251, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .play-tickets a {
     left: 20%;
   }
 }
 
 @media (min-width: 700px) {
-  /* line 236, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 251, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .play-tickets a {
     left: 25%;
   }
 }
 
 @media (min-width: 830px) {
-  /* line 236, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 251, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .play-tickets a {
     left: 27%;
   }
 }
 
 @media (min-width: 1250px) {
-  /* line 236, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 251, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .play-tickets a {
     left: 32%;
   }
 }
 
 @media (max-width: 576px) {
-  /* line 276, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 291, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .showtimes {
     margin-top: 85px;
   }
 }
 
 @media (min-width: 576px) {
-  /* line 276, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 291, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .showtimes {
     margin-top: 95px;
   }
 }
 
-/* line 284, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 299, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .showtimes h2 {
   font-family: "becker-gothics-stencil", sans-serif;
   text-align: center;
 }
 
 @media (min-width: 576px) {
-  /* line 284, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 299, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .showtimes h2 {
     font-size: 2.75em;
   }
 }
 
-/* line 292, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 307, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .showtimes ul {
   list-style: none;
   text-align: center;
@@ -457,33 +472,33 @@ nav .play:hover, nav .play:active {
 }
 
 @media (max-width: 576px) {
-  /* line 301, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 316, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .castcrew {
     margin-top: 65px;
   }
 }
 
 @media (min-width: 576px) {
-  /* line 301, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 316, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .castcrew {
     margin-top: 65px;
   }
 }
 
-/* line 308, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 323, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .castcrew h3 {
   font-family: "becker-gothics-stencil", sans-serif;
   text-align: center;
 }
 
 @media (min-width: 576px) {
-  /* line 308, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 323, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .castcrew h3 {
     font-size: 2.75em;
   }
 }
 
-/* line 316, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 331, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .castcrew ul {
   list-style: none;
   padding: 0;
@@ -492,33 +507,33 @@ nav .play:hover, nav .play:active {
 }
 
 @media (max-width: 576px) {
-  /* line 316, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 331, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .castcrew ul {
     font-size: 1.5em;
   }
 }
 
 @media (min-width: 576px) {
-  /* line 316, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 331, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .castcrew ul {
     font-size: 1.5em;
   }
 }
 
-/* line 332, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+/* line 347, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
 .cacti {
   position: relative;
 }
 
 @media (min-width: 576px) {
-  /* line 332, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 347, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .cacti {
     margin-top: 50px;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 332, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
+  /* line 347, ../../../Documents/GitHub/pelican-players/sass/styles.scss */
   .cacti {
     margin-top: 0;
   }
